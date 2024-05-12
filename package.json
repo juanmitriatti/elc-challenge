@@ -6,11 +6,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.6",
+    "@types/google.maps": "^3.55.8",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-papaparse": "^4.4.0"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.11",
+    "@types/react": "18.3.2",
+    "typescript": "5.4.5"
   }
 }
