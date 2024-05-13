@@ -11,27 +11,28 @@ To run this project locally, you need to have Node.js 18 or later installed on y
 
 1. Clone the repository to your local machine:
 
-\`\`\`bash
-git clone [<repository-url>](https://github.com/juanmitriatti/elc-challenge)
-\`\`\`
+```bash
+git clone https://github.com/juanmitriatti/elc-challenge
+```
+
 
 2. Navigate to the project directory:
 
-\`\`\`bash
+```bash
 cd nextjs-food-truck-locator
-\`\`\`
+```
 
 3. Install the dependencies using npm:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 4. Run the development server:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
 
