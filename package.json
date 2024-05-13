@@ -6,12 +6,26 @@
     "start": "next start"
   },
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.16.6",
-    "@types/google.maps": "^3.55.8",
+    "@fast-csv/parse": "^5.0.0",
+    "@googlemaps/react-wrapper": "git@github.com:googlemaps/react-wrapper.git",
+    "@radix-ui/react-alert-dialog": "^1.0.5",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@vis.gl/react-google-maps": "^1.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "fast-csv": "^5.0.1",
+    "lucide-react": "^0.378.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-papaparse": "^4.4.0"
+    "react-papaparse": "^4.4.0",
+    "remeda": "^1.61.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "usehooks-ts": "^3.1.0",
+    "vaul": "^0.9.1"
   },
   "engines": {
     "node": ">=18"
@@ -19,6 +33,11 @@
   "devDependencies": {
     "@types/node": "20.12.11",
     "@types/react": "18.3.2",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.3",
     "typescript": "5.4.5"
   }
 }
